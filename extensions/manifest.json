@@ -1,0 +1,10 @@
+{
+  "name": "Custom Download Redirector",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Redirect downloads to Electron Download Manager",
+  "permissions": ["downloads", "nativeMessaging"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
